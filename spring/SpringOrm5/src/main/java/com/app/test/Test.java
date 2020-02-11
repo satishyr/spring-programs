@@ -1,0 +1,59 @@
+package com.app.test;
+
+import org.hibernate.SessionFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.orm.hibernate5.HibernateTransactionManager;
+
+import com.app.bean.User;
+import com.app.service.IUserService;
+
+public class Test {
+public static void main(String[] args) {
+	ApplicationContext ac=new ClassPathXmlApplicationContext("cfg.xml");
+	Object o=ac.getBean("serviceUserImpl");
+	IUserService u=(IUserService)o;
+	
+	//save
+	/**
+	 User user=new User();
+	user.setUid(7);
+	user.setUname("sam");
+	user.setUcode("s106");
+	u.save(user);
+	*/
+	
+	
+	//update
+	/**User user=new User();
+	user.setUid(7);
+	user.setUname("ram");
+	user.setUcode("s108");
+	u.update(user);
+	*/
+	
+	
+	//delete
+	/**User user=new User();
+	user.setUid(6);
+	u.delete(6);
+	
+    System.out.println("delete successfully");
+    */
+	
+	
+	//retrive data in a list
+	/**List<User> list=u.getAllUsers();
+	for(User user:list)
+	System.out.println(user);*/
+	
+	//retrive only one user data
+	User user=u.getUserById(4);
+	System.out.println(user);
+	
+	
+	
+	
+}
+	
+}

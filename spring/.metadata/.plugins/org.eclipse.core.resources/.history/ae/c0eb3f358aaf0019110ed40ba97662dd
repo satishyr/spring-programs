@@ -1,0 +1,50 @@
+package com.app.dao.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.app.bean.User;
+import com.app.dao.IUserDao;
+
+@Repository
+public class UserDaoImpl implements IUserDao {
+
+	@Autowired
+	private HibernateTemplate ht;
+	
+	
+	public int save(User user) {
+		
+		return (Integer) ht.save(user);
+	}
+
+
+	public void update(User user) {
+		ht.update(user);
+		
+	}
+
+	
+	public void delete(int uid) {
+		User user=new User();
+		user.setUid(uid);
+		ht.delete(user);
+		
+	}
+
+	
+	public User getUserById(int uid) {
+		User user=ht.get(User.class, uid);
+		return user;
+	}
+
+	
+	public List<User> getAllUsers() {
+		List<User> user=ht.loadAll(User.class);
+		return user;
+	}
+
+}

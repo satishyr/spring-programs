@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring3"/>
+<aop-project name="StandAloneCollectionEx"/>
+<aop-project name="PropertyOrList"/>
+<aop-project name="Has-a-Relation"/>
+<aop-project name="LSMP"/>
+<aop-project name="RefEx2"/>
+<aop-project name="SpringJdbc"/>
+<aop-project name="JavaConfig"/>
+<aop-project name="InnerBean1"/>
+<aop-project name="StereoTypeXmlConfig"/>
+<aop-project name="Spring5ORMMavenEx"/>
+<aop-project name="SpringMvc4"/>
+<aop-project name="SpringJavaConfigEx"/>
+<aop-project name="RefEx"/>
+<aop-project name="StereoTypeJavaConfig"/>
+<aop-project name="JdbcSelect"/>
+<aop-project name="Property"/>
+<aop-project name="spring1"/>
+<aop-project name="JavaConfigLSMP"/>
+<aop-project name="StereoTypeUsingJavaConfig"/>
+<aop-project name="SpringImplBean"/>
+<aop-project name="InnerBean"/>
+<aop-project name="SpringJavaConfigEx2"/>
+<aop-project name="MavenSpringOrm1"/>
+<aop-project name="PropertiesFileUsed"/>
+<aop-project name="ConstructorDepeE"/>
+<aop-project name="StereoTypeAnnoUsingXml"/>
+<aop-project name="ListOrSet"/>
+<aop-project name="SpringAnnotationJavaConfig"/>
+<aop-project name="Primitv-Collect-use-annot-config"/>
+<aop-project name="SpringOrm5"/>
+<aop-project name="Jdbcdelete"/>
+</aop-reference-model>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.app.bean&apos; to &apos;AnnotationConfigJavaConfig/src&apos;&#x0D;&#x0A;- Original project: &apos;StereoTypeUsingJavaConfig&apos;&#x0D;&#x0A;- Destination element: &apos;AnnotationConfigJavaConfig/src&apos;&#x0D;&#x0A;- Original element: &apos;StereoTypeUsingJavaConfig/src/main/java/com.app.bean&apos;" description="Copy package" destination="=AnnotationConfigJavaConfig/src" element1="/src\/main\/java&lt;com.app.bean" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1563870443647" version="1.0"/>
+</session>

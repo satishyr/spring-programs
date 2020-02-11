@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;cfg.xml&apos; to &apos;ConstructorDepeE/src&apos;&#x0D;&#x0A;- Original project: &apos;spring1&apos;&#x0D;&#x0A;- Destination element: &apos;ConstructorDepeE/src&apos;&#x0D;&#x0A;- Original element: &apos;cfg.xml&apos;" description="Copy file" destination="=ConstructorDepeE/src" element1="src/cfg.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1563348812262" units="0" version="1.0"/>
+</session>

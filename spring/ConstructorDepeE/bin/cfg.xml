@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+<bean class="com.app.bean.Employee" name="eobj">
+<constructor-arg><value>101</value></constructor-arg>
+<constructor-arg><value>satish</value></constructor-arg>
+<constructor-arg><value>10000.0</value></constructor-arg>
+<constructor-arg><set><value>java</value>
+<value>c</value>
+<value>hiber</value>
+<value>spring</value>
+
+</set></constructor-arg>
+<constructor-arg>
+
+<props><prop key="c1">vendor</prop>
+<prop key="c2">data</prop>
+<prop key="c3">wharehouse</prop>
+<prop key="c4">service</prop>
+</props>
+</constructor-arg>
+</bean>
+
+</beans>

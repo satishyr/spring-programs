@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=ConstructorDepeE/E:\/softwares\/spring-framework-5.0.8.RELEASE\/libs\/spring-orm-5.0.8.RELEASE.jar&lt;org.springframework.orm.hibernate5(LocalSessionFactoryBean.class[LocalSessionFactoryBean" modifiers="33" timestamp="1532570086000"/>
+<typeInfo handle="=ConstructorDepeE/E:\/softwares\/spring-framework-5.0.8.RELEASE\/libs\/spring-jdbc-5.0.8.RELEASE.jar&lt;org.springframework.jdbc.core(JdbcTemplate.class[JdbcTemplate" modifiers="33" timestamp="1532570050000"/>
+<typeInfo handle="=ConstructorDepeE/E:\/softwares\/spring-framework-5.0.8.RELEASE\/libs\/spring-jdbc-5.0.8.RELEASE.jar&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1532570050000"/>
+<typeInfo handle="=ConstructorDepeE/E:\/softwares\/spring-framework-5.0.8.RELEASE\/libs\/spring-webmvc-5.0.8.RELEASE.jar&lt;org.springframework.web.servlet(DispatcherServlet.class[DispatcherServlet" modifiers="33" timestamp="1532570108000"/>
+</typeInfoHistroy>

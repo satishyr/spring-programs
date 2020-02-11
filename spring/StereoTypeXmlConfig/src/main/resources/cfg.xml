@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<context:property-placeholder
+		location="app.properties" />
+
+
+	<util:list id="lstobj" list-class="java.util.ArrayList">
+		<value>java</value>
+		<value>C</value>
+		<value>Hibernate</value>
+		<value>Spring</value>
+		<value>sql</value>
+	</util:list>
+	<util:properties id="pobj">
+		<prop key="10">1000</prop>
+
+
+		<prop key="11">1100</prop>
+		<prop key="12">1200</prop>
+		<prop key="13">1300</prop>
+		<prop key="14">1400</prop>
+	</util:properties>
+
+	<util:properties id="pobj">
+		<prop key="10">1000</prop>
+		<prop key="11">1100</prop>
+		<prop key="12">1200</prop>
+		<prop key="13">1300</prop>
+		<prop key="14">1400</prop>
+	</util:properties>
+
+	<bean class="com.app.bean.Course" name="cobj">
+
+		<property name="cid">
+			<value>${id}</value>
+		</property>
+		<property name="cnames">
+			<ref bean="lstobj" />
+		</property>
+		<property name="ccost">
+			<ref bean="pobj" />
+		</property>
+	</bean>
+
+	<util:set id="setobj" set-class="java.util.HashSet">
+		<value>java</value>
+		<value>spring</value>
+		<value>qa</value>
+		<value>devops</value>
+	</util:set>
+
+	<util:map id="mobj" map-class="java.util.HashMap">
+		<entry key="256">
+			<value>tamakollu</value>
+		</entry>
+		<entry key="229" value="kaikaluru"></entry>
+		<entry key="228" value="hyd"></entry>
+	</util:map>
+
+	<bean class="com.app.bean.Student" name="sobj">
+		<property name="sname">
+			<value>${name}</value>
+		</property>
+		<property name="scourse">
+			<ref bean="setobj" />
+		</property>
+		<property name="saddr">
+			<ref bean="mobj" />
+		</property>
+		<property name="cobj">
+			<ref bean="cobj" />
+		</property>
+
+	</bean>
+</beans>

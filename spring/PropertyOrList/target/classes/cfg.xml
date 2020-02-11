@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+<bean class="com.app.model.Admin" name="aobj">
+<property name="adminid" value="101"></property>
+<property name="admindepts">
+<list><value>java</value>
+<value>c</value>
+<value>sql</value>
+<value>oops</value>
+
+
+
+
+</list>
+
+
+</property>
+<property name="adminprjs" >
+<map>
+<entry key="java" value="vendor"></entry>
+<entry key="c" value="query"></entry>
+<entry key="sql" value="services"></entry>
+<entry key="oose" value="employeedatabase"></entry>
+</map>
+
+
+</property>
+
+</bean>
+
+</beans>

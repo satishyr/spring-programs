@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;InnerBean1/src/main/resources/cfg.ml.xml&apos; to &apos;cfg.xml&apos;" description="Rename resource &apos;cfg.ml.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/cfg.ml.xml" name="cfg.xml" stamp="1564997438772" updateReferences="true"/>
+</session>

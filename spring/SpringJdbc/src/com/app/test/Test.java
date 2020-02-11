@@ -1,0 +1,16 @@
+package com.app.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+public class Test {
+	public static void main(String[] args) {
+		ApplicationContext ac=new ClassPathXmlApplicationContext("cfg.xml");
+		JdbcTemplate jt=(JdbcTemplate)ac.getBean("jtobj");
+		String sql="insert into stdtab values(?,?,?,?)";
+		int count=jt.update(sql,110,"venkey","hiber",5000.0);
+		System.out.println("successfully registerd:"+count);
+	}
+
+}

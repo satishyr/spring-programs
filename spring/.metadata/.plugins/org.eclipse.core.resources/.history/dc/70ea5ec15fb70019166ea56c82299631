@@ -1,0 +1,34 @@
+package com.app.bean;
+
+public class Version {
+	private int vid;
+	private String vcode;
+	private Project op;
+	public int getVid() {
+		return vid;
+	}
+	public void setVid(int vid) {
+		this.vid = vid;
+	}
+	public String getVcode() {
+		return vcode;
+	}
+	public void setVcode(String vcode) {
+		this.vcode = vcode;
+	}
+	public Project getOp() {
+		return op;
+	}
+	public void setOp(Project op) {
+		this.op = op;
+	}
+	public Version() {
+		super();
+	}
+	@Override
+	public String toString() {
+		return "Version [vid=" + vid + ", vcode=" + vcode + ", op=" + op + "]";
+	}
+	
+
+}
